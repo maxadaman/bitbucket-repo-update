@@ -4,6 +4,8 @@
 
 ### `npm i`
 
-2. After that, you can start application using command
+2. Add .env file in root of project
+
+3. After that, you can start application using command
 
 ### `npm run start`
