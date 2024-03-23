@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "paths": {
+      "config/*": ["src/config/*"],
+      "controllers/*": ["src/controllers/*"],
+      "domain/*": ["src/domain/*"],
+      "services/*": ["src/services/*"],
+      "subsidiaryBinders/*": ["src/subsidiaryBinders/*"],
+      "types/*": ["src/types/*"],
+      "utils/*": ["src/utils/*"]
+    },
+    "target": "es6",
+    "module": "commonjs",
+    "strict": true,
+    "esModuleInterop": true,
+    "outDir": "./dist"
+  },
+  "include": ["src/**/*.ts"],
+  "exclude": ["node_modules"]
+}

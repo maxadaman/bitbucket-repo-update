@@ -1,0 +1,3 @@
+import { RepositoryApplicationPackagesUpdateCLIController } from 'controllers/repositoryApplicationPackagesUpdateCLIController';
+
+RepositoryApplicationPackagesUpdateCLIController.init();
